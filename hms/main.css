@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {font-family: 'arial', 'sans-serif';
+left: 0;
+		}
+		
+	
+
+
+	
+	
+header {
+	margin: 0;
+	left: 0;
+	top: 0px;
+	width: 100%;
+	height: 200px;
+	position: fixed;
+	background-color:white;
+	background-image: url("./pictures/headback1.png");
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: 100% 200px;
+	
+		}	
+
+		
+header h1{
+	color: #3f6eba;
+	float:right;
+	padding-right:670px;
+}
+
+header img{
+				height:37%;
+				width:37%;
+				padding-left: 5px;
+				top: 0px;
+}
+
+
+/* Navigation Bar*/
+.main_menue {
+	left: 0;
+	padding: 5px 0 5px 0; /* padding for menue looks good keep it*/
+	text-align: center;
+	line-height: 26px;
+	background-color: lightblue;
+	opacity: .7; 
+	position: fixed;
+	width: 100%;
+	margin-top: 163px;	
+}
+
+
+.main_menue li {		/* keep as is display menue inline */
+	display: inline;
+	padding: 0 20px 0 20px;
+	font-size: 20px;
+}
+
+.main_menue a {			/*keep as is seperates and formate menue text*/
+	text-decoration: none;
+	color: #fff;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-right: 12px ;
+	padding-left: 12px;
+	font-variant: small-caption;
+}
+
+
+
+.main_menue a:hover,
+.main_menue:focus {
+			
+			 
+			
+background-color:#fff;
+    color:#444;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    -moz-box-shadow:1px 1px 4px #666;
+    -webkit-box-shadow:1px 1px 4px #666;
+    box-shadow:1px 1px 4px #666;
+					}
+
+
+					
+footer {
+	left: 0px;	
+    width: 100%;
+	height: 300px;
+	margin-top: -16px;
+	margin-left :0;
+	margin-right: 0px;
+	background-image: url("./pictures/footer.png");
+	background-size: 100%;
+	background-position: fixed;
+	color: grey;
+}
+
+footer h2 {
+	color: white;
+	padding-top: 25px;
+	margin-top: 0px;
+	text-align: center;
+	font-weight: bold;	
+}
+			
+h2{color: #5a5c5e;
+		word-spacing: 5px;
+		letter-spacing: 6px;
+		font-size: 23px;
+		}
+	h3{color: grey;
+			word-spacing: 5px;
+		letter-spacing: 2px;
+	}
+		
+
+			#box1 p {word-spacing: 5px;
+				letter-spacing: 4px;
+				font-family: arial;
+				font-size: 12pt;
+				font-weight: bold;
+				text-align: right;
+				padding-right: 105px;
+				padding-top: 180px;
+				color: #5a5c5e;
+			}
+			#box1 h2 {
+				font-family: arial;	
+				text-align: right;
+				padding-right: 0px;
+				padding-top: 0px;
+			}
+/*section main with MAIN picture */
+.mainSection {	margin: 0;
+				height: 667px;	
+				margin-bottom: 10px;
+				background-image: url("./pictures/home_main.png");
+				background-repeat: no-repeat;
+				background-size: cover;				
+				margin-top: 10%;
+}
+			
+		
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+	
+	float: right;
+	width: auto;
+	height: 120px;
+	margin-top: 40px;
+	margin-right: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	
+}
+.column3 {
+	
+	float: right;
+	width: auto;
+	height: 120px;
+	margin-top: 20%;
+	margin-right: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#colhov:hover {
+    
+    width: auto;
+	height:120;
+	background-color:#fff;
+    color:#444;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:5px;
+    -moz-box-shadow:1px 1px 4px #666;
+    -webkit-box-shadow:1px 1px 4px #666;
+    box-shadow:1px 1px 9px #666;
+	
+}
+
+			
+.multi-border{
+	width: 153px;
+	height:auto;
+	border: 2px solid #c2d8fc;
+	
+}			
+/* Above data for Index/home page*/
+
+/* below data reperesents the beginning of formating CSS for the About page*/
+
+	.mainSectionAbout {		height: 667px;			/* Display Main Image for the about page*/
+				
+				background-image: url("./pictures/about_main.png");
+				background-repeat: no-repeat;
+				background-size: cover;				
+				margin-top: 10%;
+}
+	#aboutArticle {
+				height: 370px;
+				width: 700px;
+				float:right;	
+				margin-right: 35px;
+				margin-top: 60px;
+			}
+	#aboutArticle p{
+		word-spacing: 5px;
+		letter-spacing: 1px;
+		  line-height: 1.6;
+	} 
+	#aboutArticle h2{padding-bottom: 5px;
+						padding-top: 60px
+					}
+	#aboutArticle h3{padding-bottom: 5px;}
+			
+/*footer boxes */
+#footbox1 {
+	Width: 400px;
+	height: 200px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#footbox1 p{
+	text-align: left;
+	font-weight: bold;
+	color: black;
+	padding-left:75px;
+	margin-bottom: 5px;
+	
+	
+}
+
+#footbox2 {
+	Width: 400px;
+	height: 200px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#footbox2 p{
+	text-align: left;
+	font-weight: bold;
+	color: black;
+	padding-left:75px;
+	margin-bottom: 5px;
+	
+}
+
+
+#footbox3 {
+	Width: 400px;
+	height: 200px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 10px;
+}
+
+#footbox3 p{
+	text-align: left;
+	font-weight: bold;
+	color: black;
+	padding-left:75px;
+	margin-bottom: 5px;
+	
+}
+
+
+.services li {		/* keep as is display menue inline */
+	display: block;
+	padding: 5px 0px 0px 0px;
+	padding-top: -5px;
+	font-size: 17px;
+	
+}
+
+/* end of footer*/
+
+/* login page*/
+#loginMain{
+	Width: 40%;
+	height: 220px;
+	margin-top: -20px;
+	margin-left: 30%;
+	margin-right: 30%;
+	float: left;
+
+	}
+
+#loginAs{
+	width: 150px;
+	height: 50px;
+	margin-top: 240px;
+	float: right;
+	margin-right: 56%;
+}
+
+#loginAs h3{margin-top: 10px;
+
+}	
+
+	/* login page Actors*/
+	
+.column2 {
+	
+	float: left;
+	width: auto;
+	height: 120px;
+	margin-top: 40px;
+	margin-right: 3px;
+	margin-left: 3px;
+	padding-right: 9px;
+	padding-left: 9px;
+
+	
+}
+
+
+.column2 li {margin-left: 50px;
+					font-weight: bold;
+}
+
+/* Clear floats after image containers */
+.loginrow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.multi-borderLogin{
+	width: 153px;
+	height:auto;
+
+}	
+/* ........................................Clear floats after image containers/...................................... */
+
+/* .................................................Contact/...................................... */
+.mainContact {	height: 667px;	
+				margin-bottom: 10px;
+				background-image: url("./pictures/contact.png");
+				background-repeat: no-repeat;
+				background-size: cover;				
+				margin-top: 10%;
+}
+
+		
+
+
+
+/* Clear floats after image containers */
+.contactRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+iframe {
+	float: left;
+	margin-top: -1%;
+	margin-left:3%;
+	padding-top: 30px;
+}			
+
+
+
+
+
+
+
+
+
